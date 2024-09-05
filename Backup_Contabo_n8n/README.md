@@ -22,6 +22,21 @@ Para que o workflow funcione corretamente, é necessário fornecer as credenciai
 - [Documentação da API Contabo](https://api.contabo.com/)
 - [Página de credenciais da Contabo](https://my.contabo.com/api/details)
 
+## Como Utilizar
+
+1. **Baixe o arquivo JSON**: Faça o [download](https://github.com/FelipeWayne/automation-n8n/blob/main/Backup_Contabo_n8n/Snapshot_Contabo.json) do arquivo JSON contendo o workflow. 
+   
+2. **Suba o Workflow no n8n**:
+   - Acesse o painel do n8n.
+   - Clique em "Importar Workflow" e selecione o arquivo JSON baixado.
+   
+3. **Configurar as Credenciais**:
+   - Após importar o workflow, edite o nó de **Credencial** e insira as informações de CLIENT_ID, CLIENT_SECRET, API_USER, e API_PASSWORD.
+   
+4. **Ativar o Workflow**:
+   - Após as configurações, ative o workflow para que ele execute automaticamente todos os dias às 00h.
+
+
 ## Funcionamento do Workflow
 
 ### Fluxo Geral
